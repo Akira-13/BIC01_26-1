@@ -25,6 +25,7 @@ int main(){
       break;
     case 2:
         monto = monto*0.85;
+        break;
     case 3:
       if (monto >= 50 && monto <= 200){
         monto = monto * 0.95;
@@ -32,6 +33,7 @@ int main(){
       else if (monto > 200){
         monto = monto * 0.9;
       }
+      break;
     default:
       cout << "No se reconoce ese tipo. No se aplica descuento." << endl;
   }
