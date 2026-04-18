@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
   srand(time(0));
-  int aleatorio = rand()%100 + 1;
+  int aleatorio = rand()%100;
   int entrada;
   // Pueden verificar que sea aleatorio imprimiéndolo
   // cout << aleatorio << endl;
